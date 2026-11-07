@@ -1,0 +1,34 @@
+BOT SOLANA + ROBINHOOD V9.3 — SIMULACAO LOCAL, SEM DINHEIRO REAL
+
+INSTALACAO WINDOWS:
+1. Extraia esta pasta completa em um lugar novo (NAO sobre a V9.2).
+2. Instale Python 3.13; caso necessario: py -3.13 -m pip install tzdata
+3. Execute TESTAR_V93.bat.
+4. Execute INICIAR_V93.bat.
+5. Execute ABRIR_PAINEL_V93.bat.
+6. Para parar: Ctrl+C no CMD.
+
+NOVO BANCO: dados/v93.sqlite (criado automaticamente, carteira ficticia US$ 1.000).
+O arquivo v92.sqlite NAO E USADO NEM MODIFICADO.
+
+NOTIFICACOES:
+- Cada compra e saida ficticia gera registro persistente na tabela notifications.
+- No Windows, o programa tenta mostrar um balao na area de notificacoes com som do sistema.
+- A exibicao pode ser bloqueada por configuracoes do Windows; o registro no banco continua.
+- Ao reiniciar, alertas antigos nao devem tocar novamente.
+- Os avisos sao LOCAIS: nao enviam mensagens a celulares desligados ou PCs remotos.
+
+RISCO:
+- Etiquetas exploratorias para liquidez, idade do pool, links e atividade intensa.
+- NAO sao verificacao de rug pull, honeypot ou classificacao confiavel de bots.
+- Uma alta extraordinaria nao e prova de fraude.
+- Os alertas por si so NAO alteram os criterios de compra; uso diagnostico.
+
+PERMANECEM:
+- Solana e Robinhood Chain (amostra DEX Screener, nao feed completo on-chain).
+- MC US$ 0-30 mil, MC e FDV separados, tempo em Brasilia, links DEX Screener.
+- 1 posicao de ate US$ 25, banca ficticia US$ 1.000, stop observado -10%,
+  meta liquida US$ 100, prazo de 60 minutos, taxas/slippage hipoteticos.
+- Auditoria de cotacoes e filtros de liquidez da V9.2.
+- Sem API paga do X. RSS publico somente se configurado em narrativas.json.
+- SEM ORDENS REAIS, SEM CARTEIRAS OU CHAVES PRIVADAS.
